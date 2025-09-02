@@ -1,0 +1,6 @@
+# Cursor Rules (.cursorrules)
+
+- Maintain Memory Bank after significant changes.
+- Use StatusQ patterns for QML UI components when building examples.
+- Prefer localhost binds; never expose debug endpoints by default.
+- Keep protocol additions backward compatible; version via hello.
