@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_qml_agent_bridge_FILE /Users/alexjbanca/Repos/qml-agent-bridge/build/bridge-core/libqml_agent_bridge.a)
-set(__QT_DEPLOY_TARGET_qml_agent_bridge_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_example-minimal_FILE /Users/alexjbanca/Repos/qml-agent-bridge/build/examples/minimal-cpp/example-minimal)
-set(__QT_DEPLOY_TARGET_example-minimal_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_qab-cli_FILE /Users/alexjbanca/Repos/qml-agent-bridge/build/tools/cli/qab-cli)
-set(__QT_DEPLOY_TARGET_qab-cli_TYPE EXECUTABLE)
