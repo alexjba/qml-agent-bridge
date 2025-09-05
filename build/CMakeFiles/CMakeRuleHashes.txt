@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+aa008f23dbe4482fbb4cd7bf39de34bd bridge-core/CMakeFiles/qml_agent_bridge_autogen
+57c10a79d4fb6192ab7b15cdfb73961a examples/minimal-cpp/CMakeFiles/example-minimal_autogen
+d33ca3802c636b8064abc9a4ea7ca5be examples/minimal-cpp/example-minimal_autogen/EWIEGA46WW/qrc_qml.cpp
+f4850687dc8564b78d75ded84aa0b6a7 tools/cli/CMakeFiles/qab-cli_autogen

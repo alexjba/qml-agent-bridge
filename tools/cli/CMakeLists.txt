@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.18)
+project(qab-cli LANGUAGES CXX)
+find_package(Qt6 COMPONENTS Core WebSockets QUIET)
+if(NOT Qt6_FOUND)
+  find_package(Qt5 COMPONENTS Core WebSockets REQUIRED)
+  set(QT_LIBS Qt5::Core Qt5::WebSockets)
+else()
+  set(QT_LIBS Qt6::Core Qt6::WebSockets)
+endif()
+add_executable(qab-cli main.cpp)
+target_link_libraries(qab-cli PRIVATE ${QT_LIBS})
+
+install(TARGETS qab-cli RUNTIME DESTINATION bin)

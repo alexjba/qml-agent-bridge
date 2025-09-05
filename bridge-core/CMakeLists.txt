@@ -1,4 +1,7 @@
-add_library(qml_agent_bridge STATIC src/InspectorServer.cpp)
+add_library(qml_agent_bridge STATIC
+    src/InspectorServer.cpp
+    include/InspectorServer.hpp
+)
 find_package(Qt6 COMPONENTS Core WebSockets Qml QUIET)
 if(NOT Qt6_FOUND)
   find_package(Qt5 COMPONENTS Core WebSockets Qml REQUIRED)

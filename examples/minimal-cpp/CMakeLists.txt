@@ -11,4 +11,4 @@ endif()
 
 add_executable(example-minimal main.cpp qml.qrc)
 
-target_link_libraries(example-minimal PRIVATE  qml_agent_bridge)
+target_link_libraries(example-minimal PRIVATE ${QT_LIBS} qml_agent_bridge)
